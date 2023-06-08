@@ -1,0 +1,10 @@
+/* Variables and mixins declared here will be available in all other SCSS files */
+
+$base-font: 'system-ui', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+$base-font-size: 1.125rem;
+$base-line-height: 1.6;
+
+$base-border-radius: calc(($base-font-size / 2) - 2px);
+$base-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+
+$base-transition: all 0.2s ease-in-out;
